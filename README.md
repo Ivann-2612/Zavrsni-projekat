@@ -1,4 +1,4 @@
-### 'npm install'   install node modules for this project
+###  npm install   install node modules for this project
 
 In the project directory, you can run:
 
