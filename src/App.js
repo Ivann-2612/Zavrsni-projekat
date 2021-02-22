@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 import Login from './components/Login'
 import Register from './components/Register'
 import Home from './components/Home'
+import Main from './components/Main'
 import NewsList from './components/NewsList'
 import SerbiaNewsList from './components/SerbiaNewsList'
 import EventsList from './components/EventsList'
@@ -15,6 +16,7 @@ import NewsSourcesList from './components/NewsSourcesList'
 import {StyledHeader} from './styledComponents/StyledHeader'
 import {StyledNav} from './styledComponents/StyledNav'
 import {StyledNewsSection} from './styledComponents/StyledNewsSection'
+import {StyledMain} from './styledComponents/StyledMain'
 import {StyledNewsSourceList} from './styledComponents/StyledNewsSourceList'
 
 
@@ -24,6 +26,7 @@ const App = () => {
  
   return (
     <Router>
+  
                <StyledNav>
                 {
                     user ? 
@@ -36,19 +39,17 @@ const App = () => {
                      <Link style={{position:'absolute',left:'14.6%',top:'10%'}} to="/NewsHealthList">Health News</Link>
                      <Link style={{position:'absolute',left:'28.1%',top:'10%'}} to="/EventsList">Top Events</Link>
                      <Link style={{position:'absolute',left:'40.6%',top:'10%',color:'#118ab2',border:'1px solid #118ab2'}} to="/SerbiaNewsList">Serbia News</Link>
-                    
                         <span>Username: {user.username}</span>
-                        <button onClick={() => setUser(null)}>LOGOUT</button> 
-                       
+                        <button onClick={() => setUser(null)}>LOGOUT</button>                     
                     </>
+                    
                     :
                     <> 
-                    <marquee scrolldelay="90"><h1 className='top'>TOP WORLD NEWS</h1>
-                    </marquee><br/><marquee scrollamount="10"><h3>DAILY NEWS</h3></marquee>
-                    <StyledHeader>
-                        <Link className='login' to="/login">Login</Link>
-                        <Link className='register' to="/register">Register</Link>
-                    </StyledHeader>
+                    <h1 className='top'>TOP WORLD NEWS</h1>
+                    <br/><marquee scrollamount="8"><h3>DAILY NEWS</h3></marquee>
+                    <StyledMain>
+                        <Main />
+                    </StyledMain>
                     </>
                 }
             </StyledNav>

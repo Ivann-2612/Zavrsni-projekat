@@ -20,9 +20,9 @@ h3, p {
     margin-bottom:5px;
 }
 img {
-    width:270px;
-    height:140px;
-    margin-left:30px;
+    width:280px;
+    height:150px;
+    margin-left:24px;
     border-radius:5px;
 }
 

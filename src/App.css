@@ -40,11 +40,13 @@ h4 {
   border:1px solid white;
   width: 400px;
   position: absolute;
-  left: 38%;
-  top: 30%;
+  left: 71%;
+  top: 2%;
   padding: 50px;
   padding-left:100px;
   box-shadow: 2px 2px 2px 2px white;
+  background-color: #171717;
+  opacity: 0.85;
 }
 div > .input {
   display:flex;
@@ -55,6 +57,7 @@ div > .input {
   outline: none;
   font-size: 15px;
 }
+
 .btn-login {
    background-color: rgb(131, 174, 175);
     display:flex;
