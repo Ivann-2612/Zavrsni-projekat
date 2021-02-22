@@ -46,7 +46,7 @@ const App = () => {
                     <marquee scrolldelay="90"><h1 className='top'>TOP WORLD NEWS</h1>
                     </marquee><br/><marquee scrollamount="10"><h3>DAILY NEWS</h3></marquee>
                     <StyledHeader>
-                        <Link className='login' to="/login">Login</Link>
+                        <Link className='login' to="/login">Loginn</Link>
                         <Link className='register' to="/register">Register</Link>
                     </StyledHeader>
                     </>
