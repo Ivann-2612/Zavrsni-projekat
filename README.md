@@ -1,4 +1,5 @@
 ###  npm install   install node modules for this project
+cd zavrsni-projekat
 
 In the project directory, you can run:
 
