@@ -4,7 +4,7 @@ export const StyledSerbiaItem = styled.div `
 background-color: #240046;
 border:1px solid gray;
 width:360px;
-height:450px;
+height:500px;
 padding:15px;
 margin:5px;
 color:gray;
@@ -20,9 +20,8 @@ h3, p {
     margin-bottom:5px;
 }
 img {
-    width:280px;
-    height:150px;
-    margin-left:24px;
+    width:330px;
+    height:180px;
     border-radius:5px;
 }
 

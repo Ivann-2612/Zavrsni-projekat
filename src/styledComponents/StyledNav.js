@@ -36,7 +36,9 @@ export const StyledNav = styled.nav `
     font-weight:600;
     letter-spacing:2px;
     top:3%;
+    border:1px solid gray;
  }
+ 
  button:hover {
     background-color:red;
     color:white;

@@ -5,8 +5,9 @@ export const StyledMain = styled.section `
     color:white;
     padding:30px;
     position:absolute;
+    width:95vw;
     top:24%;
-    height:75.5vh;
+    height:auto;
     font-size:15px;
     text-align:center;
     font-family:sans-serif;
@@ -15,6 +16,6 @@ export const StyledMain = styled.section `
         max-width:90vw;
         word-break: break-all;
     }
-
+   
     
 `
