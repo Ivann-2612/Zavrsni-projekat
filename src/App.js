@@ -55,8 +55,8 @@ const App = () => {
                     
                     :
                     <> 
-                    <h1 className='top'>TOP WORLD NEWS</h1>
-                    <br/><marquee scrollamount="8"><h3>DAILY NEWS</h3></marquee>
+                    <img src='https://cdn.worldvectorlogo.com/logos/daily-news.svg' style={{width:'200px',backgroundColor:'white',padding:'12px',marginTop:'-20px',marginBottom:'15px',boxShadow: '0px 0px 12px #f7f4f7'}} />
+                    <br/><marquee scrollamount="8"><h3>THE BEST PLACE FOR QUALITY NEWS</h3></marquee>
                     <StyledMain>
                         <Main />
                     </StyledMain>

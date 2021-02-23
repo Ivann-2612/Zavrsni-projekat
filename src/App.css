@@ -92,7 +92,8 @@ div > .input {
   height: 120px;
   padding-left: 40px;
   font-size: 30px;
-  background:linear-gradient(#00c3ff,darkred, #ffff1c) ;
+  background: rgb(236,224,224);
+background: radial-gradient(circle, rgba(236,224,224,1) 4%, rgba(41,154,141,1) 63%);
   border-radius: 50%;
 
 }

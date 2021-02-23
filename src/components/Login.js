@@ -2,6 +2,7 @@ import { useState } from "react"
 import { useHistory } from "react-router"
 import { Link } from "react-router-dom"
 import { getAllUsers } from "../service"
+import {FaUserCircle} from 'react-icons/fa'
 
 const Login = ({ setUser }) => {
     const [username,setUsername] = useState('')
@@ -25,6 +26,7 @@ const Login = ({ setUser }) => {
                 })
             }}>
                 <div className='div-input'>
+                <FaUserCircle style={{fontSize:'75px',marginTop:'-30px',position:'absolute',left:'3%',top:'16%',zIndex:'-1',color:'#272727'}} />
                 <input className='input' type="text" placeholder="Username..." onChange={e => setUsername(e.target.value)}/>
                 <input className='input' type="password" placeholder="Password..." onChange={e => setPassword(e.target.value)}/>
                 <input className='btn-login' type="submit" value="Login" />

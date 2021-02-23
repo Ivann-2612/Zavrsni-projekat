@@ -18,7 +18,7 @@ const Main = () => {
             {
                 events.map(({title,author}) => {
                     return (
-                        <div>
+                        <div key={title}>
                             <h2><marquee className='marquee' scrollamount="10" style={{color:'#f5ec43'}}>{author}</marquee></h2>
                             <p><marquee><i>{title}</i></marquee></p>
                             
