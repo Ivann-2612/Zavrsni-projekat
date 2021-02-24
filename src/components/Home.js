@@ -3,7 +3,8 @@ import { Redirect } from "react-router"
 const Home = ({ loggedIn }) => {
     return (
         <>
-            {loggedIn ? <Redirect to='/newsList' /> : <Redirect to='/login' />}
+            {loggedIn ? <Redirect to='/newsdevitem' /> : <Redirect to='/login' />}
+         
         </>
     )
 }

@@ -1,13 +1,13 @@
 import styled from "styled-components"
 
-export const StyledMain = styled.section `
+export const StyledMain2 = styled.section `
     background-color:#141414;
     color:white;
     position:absolute;
     top:39%;
-    left:48.5%;
-    padding:30px;
-    width:50vw;
+    margin-left:-10px;
+    padding:65px;
+    width:46vw;
     height:59vh;
     font-size:15px;
     text-align:center;

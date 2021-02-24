@@ -10,6 +10,7 @@ html {
   height: 100vh;
   background-color: #212121;
   overflow-y: visible;
+  
 }
 body {
   height: 100vh;
@@ -41,7 +42,7 @@ h4 {
   width: 350px;
   position: absolute;
   left: 76%;
-  top: 1%;
+  top: 2%;
   backdrop-filter:blur(15px);
   padding: 45px;
   padding-left:70px;
@@ -123,7 +124,6 @@ box-shadow: -1px 1px 5px #e0d7e0;
 }
 marquee {
   letter-spacing: 3.5px;
-  text-decoration-style: wavy;
   font-weight: 500;
 }
 .marquee {

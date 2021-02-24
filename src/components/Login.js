@@ -32,7 +32,6 @@ const Login = ({ setUser }) => {
                 <input className='btn-login' type="submit" value="Login" />
                 <Link className='not-registered' to='/register'>Not registered?</Link>
                 </div>
-                
             </form>
           
         </>

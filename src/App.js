@@ -18,8 +18,12 @@ import {StyledNav} from './styledComponents/StyledNav'
 import {StyledClock} from './styledComponents/StyledClock'
 import {StyledNewsSection} from './styledComponents/StyledNewsSection'
 import {StyledMain} from './styledComponents/StyledMain'
+import {StyledMain2} from './styledComponents/StyledMain2'
+import {StyledMain3} from './styledComponents/StyledMain3'
 import {StyledNewsSourceList} from './styledComponents/StyledNewsSourceList'
 import Search from './components/Search'
+import Main2 from './components/Main2'
+import Main3 from './components/Main3'
 
 
 
@@ -27,7 +31,7 @@ const App = () => {
 
   const [user,setUser] = useState(null)
   const [search, setSearch] = useState('')
-  console.log(setSearch);
+ 
  
   return (
     <Router>                
@@ -44,7 +48,8 @@ const App = () => {
                      <Link style={{position:'absolute',left:'14.6%',top:'10%'}} to="/NewsHealthList">Health News</Link>
                      <Link style={{position:'absolute',left:'28.1%',top:'10%'}} to="/EventsList">Top Events</Link>
                      <Link style={{position:'absolute',left:'40.6%',top:'10%',color:'#118ab2',border:'1px solid #118ab2'}} to="/SerbiaNewsList">Serbia News</Link>
-                     <Search setSearch={setSearch} />
+                     <Search setSearch={setSearch} /> 
+            
                         <span>Username: {user.username}</span>
                         <button onClick={() => setUser(null)}>LOGOUT</button>
                         <StyledClock>
@@ -60,6 +65,12 @@ const App = () => {
                     <StyledMain>
                         <Main />
                     </StyledMain>
+                    <StyledMain2>
+                    <Main2/>
+                    </StyledMain2>
+                    <StyledMain3>
+                        <Main3 />
+                    </StyledMain3>
                     </>
                 }
             </StyledNav>

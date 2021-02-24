@@ -6,7 +6,7 @@ background-color:#212121;
 width:233px;
 position:absolute;
 left:65%;
-top:6%;
+top:5.7%;
 
 
 input {
@@ -14,7 +14,7 @@ input {
     width:233px;
     height:38px;
     border-radius:5px;
-    background-color: #aacc00;
+    background-color: #272727;
     color:white;
 }
 `

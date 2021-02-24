@@ -1,18 +1,19 @@
 import styled from "styled-components"
 
-export const StyledMain = styled.section `
+export const StyledMain3 = styled.section `
     background-color:#141414;
     color:white;
     position:absolute;
-    top:39%;
-    left:48.5%;
+    top:19.9%;
+    margin-left:-10px;
     padding:30px;
-    width:50vw;
-    height:59vh;
+    width:73.5vw;
+    height:16.8vh;
     font-size:15px;
     text-align:center;
     font-family:sans-serif;
     border:0.5px solid #353535;
+    box-shadow: 0px 3px 7px #8c898c;
  .div {
      width:100%;
  }
