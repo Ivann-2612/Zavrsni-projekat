@@ -7,10 +7,11 @@ export const StyledMain = styled.section `
     top:39%;
     left:48.5%;
     padding:30px;
-    width:50vw;
+    width:50.45vw;
     height:59vh;
     font-size:15px;
     text-align:center;
+    box-shadow: 0px 3px 7px #353535;
     font-family:sans-serif;
     border:0.5px solid #353535;
  .div {
@@ -18,7 +19,7 @@ export const StyledMain = styled.section `
  }
    
 h2 {
-    text-shadow: 0px 0px 9px blue, 0px 0px 15px #f50abe, 0px 0px 5px red;
+    text-shadow: 0px 0px 9px blue, 0px 0px 10px #f50abe, 0px 0px 5px red;
     letter-spacing:2.5px;
 }
 
