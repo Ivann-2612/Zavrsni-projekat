@@ -14,7 +14,7 @@ const Weather = () => {
         fetch('http://api.openweathermap.org/data/2.5/weather?q=Belgrade&appid=6f9f3c22febc914f1639e706d22918db&units=metric')
         .then((res) => res.json())
         .then((data) => {
-            console.log(data)
+           // console.log(data)
             setMaxTemp(data.main.temp_max)
             setMinTemp(data.main.temp_min)
             setMainTemp(data.main.temp)

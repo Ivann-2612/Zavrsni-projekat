@@ -6,4 +6,5 @@ background-color:#212121;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 place-items:center;
+
 `

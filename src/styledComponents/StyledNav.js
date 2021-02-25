@@ -7,12 +7,15 @@ export const StyledNav = styled.nav `
     height:18vh;
     font-size:15px;
     text-align:left;
+    font-family: 'Press Start 2P', sans-serif;
+    box-shadow: 0px 3px 7px #353535;
  a {
      text-decoration:none;
      margin-left:20px;
      color:gray;
      border:1px solid gray;
      border-radius:5px;
+     padding: 10px;
  }
  a:hover {
     background-color:#f1f5f9;
@@ -63,4 +66,45 @@ export const StyledNav = styled.nav `
      border-radius:50%;
      filter: drop-shadow(0 0 0.75rem yellow);
  }
+ .year {
+    position: absolute;
+    left: 62%;
+    top: 20px;
+    color: #e0d7e0;
+    font-size: 20px;
+    color: #DFD73E;
+  }
+  .serbia {
+    color:#118ab2;
+    border: 1px solid #118ab2;
+  }
+  .sport {
+    position:absolute;
+    left:2.8%;
+    top:10%;
+  }
+  .health {
+    position:absolute;
+    left:18.3%;
+    top:10%;
+  }
+  .events {
+    position:absolute;
+    left:34.8%;
+    top:10%;
+  }
+  .daily {
+    position:absolute;
+    left:49.1%;
+    top:10%;
+  }
+  .logo {
+    width:200px;
+    background-color:white;
+    padding:12px;
+    margin-top:-20px;
+    margin-bottom:15px;
+    box-shadow:0px 0px 8px #f7f4f7;
+  }
+  
 `

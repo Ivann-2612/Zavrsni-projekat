@@ -10,7 +10,7 @@ const SerbiaNewsList = () => {
 
     useEffect(() => {
         getSerbiaNews().then(res => {
-           console.log(res.data.articles)
+           //console.log(res.data.articles)
             setArticles(res.data.articles)
         })
       

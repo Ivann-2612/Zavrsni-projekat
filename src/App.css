@@ -8,34 +8,26 @@
 
 html {
   height: 100vh;
-  background-color: #212121;
+  background-color: #f8ffff;
   overflow-y: visible;
   
 }
 body {
   height: 100vh;
+
 }
-nav {
-  font-family: 'Press Start 2P', sans-serif;
+::-webkit-scrollbar {
+  width: 18px;
+  background-color: #e2f5ae;
+  border: 2px solid black;
 }
-nav a {
-  padding: 10px;
-}
+
 article {
   color:#4A5894;
   font-size: 12px;
   text-align: center;
   margin: 2px;
   font-family: 'Press Start 2P', sans-serif;
-
-}
-.year {
-  position: absolute;
-  left: 62%;
-  top: 20px;
-  color: #e0d7e0;
-  font-size: 20px;
-  color: goldenrod;
 }
 
 h4 {
@@ -47,22 +39,32 @@ h4 {
   font-family: 'News Cycle', sans-serif;
   letter-spacing: 4px;
 }
+
 .div h2 {
   text-align: left;
+}
+.div ,.a-events {
+  font-size:15px;
+  border:none;
+  margin-left:-10px;
 }
 .div-input {
   border:1px solid white;
   width: 350px;
   position: absolute;
   left: 76%;
-  top: 2%;
+  top: 2.4%;
   backdrop-filter:blur(15px);
   padding: 45px;
   padding-left:70px; 
   background-color: #f5ec43;
-  opacity: 0.90;
+  opacity: 0.92;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  caret-color: red;
+}
+.div-input:hover {
+  background-color: darkslategrey;
 }
 div > .input {
   display:flex;
@@ -74,42 +76,6 @@ div > .input {
   font-size: 15px;
 }
 
-.btn-login {
-   background-color: rgb(131, 174, 175);
-    display:flex;
-    margin-top: 15px;
-    padding: 8px 20px;
-    margin-left: 5px;
-    border-radius: 5px;
-    outline: none;
-    color: black;
-    letter-spacing: 2px;
-}
-.btn-login:hover {
-  background-color: darkcyan;
-}
-.not-registered {
-  position: absolute;
-  left: 52%;
-  text-decoration: none;
-  color:black;
-  letter-spacing: 1.5px;
-  font-size: 20px;
-  font-weight: 600;
-}
-.logo {
-  width:200px;
-  background-color:white;
-  padding:12px;
-  margin-top:-20px;
-  margin-bottom:15px;
-  box-shadow:0px 0px 8px #f7f4f7;
-}
-.top::first-letter {
-  color: white;
-  font-size: 45px;
-  margin-right: -10px;
-}
 .login {
   padding:10px;
   font-family:sans-serif;
@@ -117,8 +83,8 @@ div > .input {
   font-size:28px;
   padding: 7px 25px;
   -moz-box-shadow: -1px 1px 5px #e0d7e0;
--webkit-box-shadow: -1px 1px 5px #e0d7e0;
-box-shadow: -1px 1px 5px #e0d7e0;
+  -webkit-box-shadow: -1px 1px 5px #e0d7e0;
+  box-shadow: -1px 1px 5px #e0d7e0;
 }
 .register {
   padding:10px;
@@ -126,8 +92,8 @@ box-shadow: -1px 1px 5px #e0d7e0;
   font-size:28px;
   padding: 7px 25px;
   -moz-box-shadow: -1px 1px 5px #e0d7e0;
--webkit-box-shadow: -1px 1px 5px #e0d7e0;
-box-shadow: -1px 1px 5px #e0d7e0;
+  -webkit-box-shadow: -1px 1px 5px #e0d7e0;
+   box-shadow: -1px 1px 5px #e0d7e0;
 }
 marquee {
   letter-spacing: 3.5px;

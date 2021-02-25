@@ -2,7 +2,7 @@ import React from 'react'
 import {StyledNewsDevItem} from '../styledComponents/StyledNewsDevItem'
 
 
-const NewsDevItem = ({title,description,url,urlToImage,publishedAt,author}) => {
+const NewsDevItem = ({id,title,description,url,urlToImage,publishedAt,author}) => {
     return (
        
         <StyledNewsDevItem>
@@ -11,6 +11,7 @@ const NewsDevItem = ({title,description,url,urlToImage,publishedAt,author}) => {
             <p><b>{publishedAt.substring(0, 10)}</b></p>
             <h3><a href={url} >{title}</a></h3>
             <p>{description}</p>
+            <p>{id}</p>
         </StyledNewsDevItem> 
     )
 }

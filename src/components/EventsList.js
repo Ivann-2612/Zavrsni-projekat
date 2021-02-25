@@ -10,7 +10,7 @@ const EventsList = () => {
 
     useEffect(() => {
         getEvents().then(res => {
-           console.log(res.data.articles)
+           //console.log(res.data.articles)
            setEvents(res.data.articles)
         })
       
@@ -21,7 +21,7 @@ const EventsList = () => {
             <h4>Events News</h4>
             {
                 events.map(({title,description,url,publishedAt,author}) => (
-                    <EventsItem key={description} title={title} description={description} url={url} publishedAt={publishedAt} author={author} />
+                    <EventsItem key={url} title={title} description={description} url={url} publishedAt={publishedAt} author={author} />
                 ))   
             }
         </StyledEventsList>

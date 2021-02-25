@@ -9,19 +9,20 @@ const Main = () => {
     useEffect(() => {
         getEvents().then(res => {
            //console.log(res.data.articles)
-           setEvents(res.data.articles.slice(0, 5))
+           setEvents(res.data.articles.slice(0, 1))
         })
     },[])
 
     return (
         <div>
             {
-                events.map(({title,author}) => {
+                events.map(({title,urlToImage,author}) => {
                     return (
                     
                         <div className='div' key={title}>
-                            <h2><marquee style={{color:'#f5ec43',textAlign:'left'}}>{author}</marquee></h2><br/>
-                            <p><marquee  className='marquee'><i>{title}</i></marquee></p>
+                            <h2 style={{color:'#f5ec43',textAlign:'left'}}>{author}</h2>
+                            <p className='marquee'><i>{title}</i></p>
+                            <img src={urlToImage} alt={title} />
                         </div>
                            
                     )

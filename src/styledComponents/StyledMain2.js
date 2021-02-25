@@ -6,7 +6,7 @@ export const StyledMain2 = styled.section `
     position:absolute;
     top:39%;
     margin-left:-10px;
-    padding:30px;
+    padding: 10px 25px;
     width:46vw;
     height:59vh;
     font-size:15px;

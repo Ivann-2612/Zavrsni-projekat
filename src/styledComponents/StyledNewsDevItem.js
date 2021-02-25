@@ -4,7 +4,7 @@ export const StyledNewsDevItem = styled.div `
 background-color:transparent;
 border:1px solid gray;
 width:400px;
-height:570px;
+height:500px;
 padding:15px;
 margin:5px;
 color:gray;
