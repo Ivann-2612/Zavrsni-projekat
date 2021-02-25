@@ -1,9 +1,10 @@
 import {StyledSearch} from '../styledComponents/StyledSearch'
 
-const Search = ({ setSearch }) => {
+const Search = ({ search,setSearch }) => {
     return (
         <StyledSearch>
-            <input type="search" placeholder="Search..." onChange={(e) => setSearch(e.target.value) }/>
+            <input type="search" placeholder="Search news..." onChange={(e) => setSearch(e.target.value) }/>
+           
         </StyledSearch>
     )
 }

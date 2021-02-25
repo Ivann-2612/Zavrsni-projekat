@@ -19,7 +19,7 @@ export const StyledMain = styled.section `
  }
    
 h2 {
-    text-shadow: 0px 0px 9px blue, 0px 0px 10px #f50abe, 0px 0px 5px red;
+    text-shadow: 0px 0px 9px blue, 0px 0px 3px #f50abe, 0px 0px 2px red;
     letter-spacing:2.5px;
 }
 

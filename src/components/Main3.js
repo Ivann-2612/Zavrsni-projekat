@@ -8,7 +8,7 @@ const Main3 = () => {
 
     useEffect(() => {
         getDevNews().then(res => {
-           console.log(res.data.articles)
+          // console.log(res.data.articles)
            setEvents(res.data.articles.slice(0, 1))
         })
     },[])

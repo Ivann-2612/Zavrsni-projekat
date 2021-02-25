@@ -18,7 +18,7 @@ const Login = ({ setUser }) => {
                     let user = res.data.find(el => (el.username === username || el.email === username) && el.password === password)
                     if(user){
                         setUser(user)
-                        history.push('/newsitem')
+                        history.push('/SerbiaNewsList')
                     }
                     else{
                        alert('Wrong password')

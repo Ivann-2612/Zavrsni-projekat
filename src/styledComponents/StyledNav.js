@@ -38,9 +38,29 @@ export const StyledNav = styled.nav `
     top:3%;
     border:1px solid gray;
  }
- 
- button:hover {
-    background-color:red;
-    color:white;
+ h1 {
+     display:none;
+     font-size:80px;
+     padding:180px;
+     width:98%;
+     text-align:center;
+     position:absolute;
+     top:10%;
+     margin-left:-18px;
+     font-family:sans-serif;
+     height:85%; 
+ }
+ button:hover + h1{
+    background-color:#310a31;
+    color:#f9f9f9;
+    border-radius:5px;
+    display: block;
+    z-index:5;
+ }
+ .img-logout {
+     width:250px;
+     height:250px;
+     border-radius:50%;
+     filter: drop-shadow(0 0 0.75rem yellow);
  }
 `

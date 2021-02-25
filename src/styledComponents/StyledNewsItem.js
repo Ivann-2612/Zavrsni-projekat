@@ -7,7 +7,7 @@ padding:10px;
 margin:5px;
 margin-top: 50px;
 border-radius:5px;
-background-color:#f1f5f9;
+background-color:#f4f1de;
 
 img {
   width:280px;
@@ -25,6 +25,7 @@ box-shadow:2px 1px 2px 2px #141414;
     transition:all 0.4s;
     color:white;
     border:1px solid gray;
+    transform: scale(1.05);
 }
 & a {
    
