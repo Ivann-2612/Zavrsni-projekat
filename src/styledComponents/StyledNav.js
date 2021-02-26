@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
 export const StyledNav = styled.nav `
-    background-color:#141414;
+    background-color:#0e1111;
     color:white;
     padding:30px;
-    height:18vh;
+    height:18.5vh;
     font-size:15px;
     text-align:left;
     font-family: 'Press Start 2P', sans-serif;

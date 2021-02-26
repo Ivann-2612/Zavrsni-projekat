@@ -24,6 +24,9 @@ import {StyledNewsSourceList} from './styledComponents/StyledNewsSourceList'
 import Search from './components/Search'
 import Main2 from './components/Main2'
 import Main3 from './components/Main3'
+import Main4 from './components/Main4'
+import Main5 from './components/Main5'
+import Main6 from './components/Main6'
 import Weather from './components/Weather'
 
 
@@ -41,9 +44,10 @@ return `${date}-${month<10?`0${month}`:`${month}`}-${year}`
   }
  
   return (
-    <Router>               
+    <Router> 
+                     
                <StyledNav>
-              
+           
                 {
                     user ? 
                     <>
@@ -61,7 +65,7 @@ return `${date}-${month<10?`0${month}`:`${month}`}-${year}`
                      <button onClick={() => setUser(null)}>LOGOUT</button>
                     <StyledClock>
                         <Clock /> 
-                    </StyledClock>                    
+                    </StyledClock>                  
                     </>
                     :
                     <> 
@@ -78,9 +82,13 @@ return `${date}-${month<10?`0${month}`:`${month}`}-${year}`
                     <StyledMain3>
                         <Main3 />
                     </StyledMain3>
+                    <Main4 />  
+                    <Main5 />
+                    <Main6 />  
                     </>
                 }
             </StyledNav>
+           
       <Switch>
         <StyledNewsSection>
                 <Route path="/login">
@@ -121,6 +129,7 @@ return `${date}-${month<10?`0${month}`:`${month}`}-${year}`
         </StyledNewsSection>    
       </Switch>  
     </Router>
+    
   )
 }
 

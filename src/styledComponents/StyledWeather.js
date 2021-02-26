@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const StyledWeather = styled.section `
-    background-color:#141414;
+    background-color:#0e1111;
     color:white;
     position:absolute;
     top:19.9%;
@@ -16,13 +16,13 @@ export const StyledWeather = styled.section `
     border:0.5px solid #353535;
     box-shadow: 0px 3px 7px #353535;
   &:hover {
-    transform:scale(1.20) translateY(-0.8em);
     z-index:10;
-    transition:width 2s, height 2s, transform 0.8s;
-    border:1px solid white;
-    color:yellow;
-    width:24.5vw;
-    background-color:#232323;
+    transform:translateX(12px);
+    transition: all 0.5s ease;
+    border:1px solid blueviolet;
+    color:black;
+    width:29.5vw;
+    background-color:#f8f8ff;
     }
   
 h2 {

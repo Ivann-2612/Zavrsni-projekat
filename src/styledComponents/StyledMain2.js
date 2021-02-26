@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const StyledMain2 = styled.section `
-    background-color:#141414;
+    background-color:#0e1111;
     color:white;
     position:absolute;
     top:39%;

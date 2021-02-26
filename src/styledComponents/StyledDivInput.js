@@ -3,6 +3,9 @@ import styled from "styled-components"
 export const StyledLoginInput = styled.div `
 box-shadow: 0px 3px 7px #353535;
 border:none;
+p:hover {
+  color:white;
+}
 
 .btn-login {
     background-color: rgb(131, 174, 175);
@@ -28,7 +31,9 @@ border:none;
     letter-spacing: 1.5px;
     font-size: 20px;
     font-weight: 600;
-
+    &:hover {
+      color:#f8f8ff;
+     }
   }
   
 
