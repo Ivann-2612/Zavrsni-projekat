@@ -20,7 +20,7 @@ const Main6 = () => {
                 events.map(({title,author}) => {
                     return (
                     
-                        <div className='div' key={title}>
+                        <div key={title}>
                             <h2>{author}</h2><br/>
                             <p><i>{title}</i></p>
                         </div>

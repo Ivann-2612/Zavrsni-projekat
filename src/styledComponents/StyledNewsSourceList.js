@@ -7,9 +7,9 @@ export const StyledNewsSourceList = styled.section `
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items:center;
-
+   }
     h4 {
         margin-top:-26px;
+        color:white !important;
     }
-
-`
+    `

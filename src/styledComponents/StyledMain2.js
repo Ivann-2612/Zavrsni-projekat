@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const StyledMain2 = styled.section `
     background-color:#0e1111;
     color:white;
+    display:flex;
     position:absolute;
     top:39%;
     margin-left:-10px;

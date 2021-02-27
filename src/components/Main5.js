@@ -9,7 +9,7 @@ const Main5 = () => {
 
     useEffect(() => {
         getDevNews().then(res => {
-          // console.log(res.data.articles)
+          console.log(res.data.articles)
            setEvents(res.data.articles.slice(0, 1))
         })
     },[])
@@ -20,7 +20,7 @@ const Main5 = () => {
                 events.map(({title,author}) => {
                     return (
                     
-                        <div className='div' key={title}>
+                        <div key={title}>
                             <h2>{author}</h2><br/>
                             <p><i>{title}</i></p>
                         </div>

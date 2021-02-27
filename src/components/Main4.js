@@ -10,19 +10,20 @@ const Main4 = () => {
     useEffect(() => {
         getDevNews().then(res => {
           // console.log(res.data.articles)
-           setEvents(res.data.articles.slice(0, 1))
+           setEvents(res.data.articles.slice(0, 2))
         })
     },[])
 
     return (
         <StyledMain4>
             {
-                events.map(({title,author}) => {
+                events.map(({urlToImage,url,author,title}) => {
                     return (
                     
-                        <div className='div' key={title}>
-                            <h2>{author}</h2><br/>
-                            <p><i>{title}</i></p>
+                        <div key={title}>
+                            <h3>{author}</h3><br/>
+                            <a href={url}><i>{url}</i></a>
+                            <img src={urlToImage} alt='new' />
                         </div>
                            
                     )

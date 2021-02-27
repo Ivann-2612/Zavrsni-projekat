@@ -1,15 +1,21 @@
 import styled from "styled-components"
 
-export const StyledMain6 = styled.div `
+export const StyledFooter = styled.div `
   position: absolute;
-  top: 143.5%;
-  left: 61%;
-  height: 40vh;
-  width: 37.5vw;
+  top: 186.5%;
+  left: 1.3%;
+  width: 96.5vw;
+  height:15vh;
   font-family:sans-serif;
   font-size: 20px;
   color: white;
   box-shadow: 0px 3px 7px #353535;
   background-color:#0e1111;
+
+  p {
+      display:flex;
+      justify-content:center;
+      margin-top:43px;
+  }
 
 `

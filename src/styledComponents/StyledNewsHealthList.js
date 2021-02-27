@@ -8,7 +8,7 @@ grid-template-columns: repeat(3, 1fr);
 place-items:center;
 
 h4 {
-    margin-top:-26px;
-  
+    margin-top:-20px;
+    color:white !important;
 }
 `

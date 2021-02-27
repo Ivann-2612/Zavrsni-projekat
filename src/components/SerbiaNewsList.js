@@ -7,6 +7,7 @@ import {StyledSerbiaList} from '../styledComponents/StyledSerbiaList'
 
 const SerbiaNewsList = () => {
     const [articles,setArticles] = useState([])
+    const [search, setSearch] = useState('')
 
     useEffect(() => {
         getSerbiaNews().then(res => {
@@ -20,7 +21,8 @@ const SerbiaNewsList = () => {
         <StyledSerbiaList>
             <h4>Serbia News</h4>
             {
-                articles.map(({title,description,url,urlToImage,publishedAt,author}) => (
+                articles.filter(el => (el.title.toLowerCase().includes(search)))
+                .map(({title,description,url,urlToImage,publishedAt,author}) => (
                     <SerbiaNewsItem key={description} title={title} description={description} url={url} urlToImage={urlToImage} publishedAt={publishedAt} author={author} />
                 ))   
             }

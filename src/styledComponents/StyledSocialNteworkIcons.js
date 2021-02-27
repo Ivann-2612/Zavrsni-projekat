@@ -1,7 +1,9 @@
 import styled from "styled-components"
 
 export const StyledSocialNteworkIcons = styled.div `
-
+position: absolute;
+top:25%;
+left:90%;
 a {
   display: block;
   align-items:center;
@@ -20,8 +22,8 @@ a {
   line-height: 20px;
 }
 a:hover {
-  background-color:#FFDC00;
+  background-color:#FFDC00 !important;
   color:black;
-  transform:translateY(10px);
+  transform:translateY(8px);
 }
 `

@@ -9,6 +9,6 @@ place-items:center;
 
 h4 {
     margin-top:-26px;
-    color:white;
+    color:white !important;
 }
 `

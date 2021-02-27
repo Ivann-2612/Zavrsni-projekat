@@ -24,9 +24,10 @@ h2 {
 }
 
 img {
-    width:710px;
+    max-width:710px;
     max-height:300px;
     margin-top:15px;
+    margin-left:-40px;
     object-fit:contain;
 } 
 `

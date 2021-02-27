@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { getSportNews } from '../service'
-import SocialNetworkIcons from './SocialNetworkIcons'
+
 
 
 
@@ -12,13 +12,13 @@ const Main2 = () => {
     useEffect(() => {
         getSportNews().then(res => {
            //console.log(res.data.articles)
-           setEvents(res.data.articles.slice(0, 5))
+           setEvents(res.data.articles.slice(0, 6))
         })
     },[])
 
     return (
         <div>
-            <SocialNetworkIcons/>                        {
+                                    {
                 events.map(({title,author}) => {
                     return (
                     

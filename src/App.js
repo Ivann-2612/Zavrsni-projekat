@@ -28,6 +28,7 @@ import Main4 from './components/Main4'
 import Main5 from './components/Main5'
 import Main6 from './components/Main6'
 import Weather from './components/Weather'
+import Footer from './components/Footer'
 
 
 
@@ -85,6 +86,7 @@ return `${date}-${month<10?`0${month}`:`${month}`}-${year}`
                     <Main4 />  
                     <Main5 />
                     <Main6 />  
+                    <Footer />
                     </>
                 }
             </StyledNav>

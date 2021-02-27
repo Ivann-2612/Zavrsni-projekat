@@ -1,15 +1,15 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { getDevNews } from '../service'
+import { getSportNews } from '../service'
 
 
 const Main3 = () => {
     const [events,setEvents] = useState([])
 
     useEffect(() => {
-        getDevNews().then(res => {
+        getSportNews().then(res => {
           // console.log(res.data.articles)
-           setEvents(res.data.articles.slice(0, 1))
+           setEvents(res.data.articles.slice(10, 11))
         })
     },[])
 
