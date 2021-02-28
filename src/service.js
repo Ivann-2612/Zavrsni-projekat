@@ -35,6 +35,6 @@ export const getSerbiaNews = () =>  {
     return axios.get(SERBIA)
 }
 
-export const getAllUsers = () => axios.get('http://localhost:3005/users')
+export const getAllUsers = () => axios.get('https://my-json-server.typicode.com/ivann-2612/my-news-app/users')
 
 export const registerUser = (username,email,password) => axios.post('http://localhost:3005/users',{username,email,password})
