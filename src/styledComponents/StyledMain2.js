@@ -15,6 +15,7 @@ export const StyledMain2 = styled.section `
     font-family:sans-serif;
     border:0.5px solid #353535;
     box-shadow: 0px 3px 7px #353535;
+    border-left:12px solid #C7C03C;
  .div {
      width:100%;
  }

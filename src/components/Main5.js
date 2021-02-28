@@ -1,28 +1,30 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { getDevNews } from '../service'
+import { getAllCats } from '../service'
 import {StyledMain5} from '../styledComponents/StyledMain5'
 
 
 const Main5 = () => {
-    const [events,setEvents] = useState([])
+    const [cats,setCats] = useState([])
 
     useEffect(() => {
-        getDevNews().then(res => {
-          console.log(res.data.articles)
-           setEvents(res.data.articles.slice(0, 1))
+        getAllCats().then(res => {
+          console.log(res.data)
+          setCats(res.data.slice(0,4))
+        
         })
     },[])
 
     return (
         <StyledMain5>
             {
-                events.map(({title,author}) => {
+                cats.map(cat => {
                     return (
                     
-                        <div key={title}>
-                            <h2>{author}</h2><br/>
-                            <p><i>{title}</i></p>
+                        <div key={cat.id}>
+                            <u><h3>{cat.text}</h3></u>
+                         <br/>
+                           
                         </div>
                            
                     )

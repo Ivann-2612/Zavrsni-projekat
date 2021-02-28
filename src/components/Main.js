@@ -8,7 +8,9 @@ const Main = () => {
     const [events, setEvents] = useState([]);
     const [margins, setMargins] = useState([0, 1])
     useEffect(() => {
+        let isSubscribed = true
         getEvents().then(res => {
+            if (isSubscribed)
             setEvents(res.data.articles)
             setTimeout(() => {
                 setMargins(prev => {
@@ -20,6 +22,7 @@ const Main = () => {
                 })
             },10000)
         })
+        return () => isSubscribed = false
     }, [margins])
    
     return (

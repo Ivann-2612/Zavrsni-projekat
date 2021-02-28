@@ -13,9 +13,11 @@ position: absolute;
   color: white;
   box-shadow: 0px 3px 7px #353535;
   background-color:#0e1111;
+  border-left:12px solid #C7C03C;
   img {
     max-width:300px;
     max-height:250px;
+    margin-left:20px;
   }
   h3 {
     margin-top:5px;

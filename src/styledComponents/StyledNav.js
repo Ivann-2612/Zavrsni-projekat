@@ -9,6 +9,7 @@ export const StyledNav = styled.nav `
     text-align:left;
     font-family: 'Press Start 2P', sans-serif;
     box-shadow: 0px 3px 7px #353535;
+    
  a {
      text-decoration:none;
      margin-left:20px;
@@ -102,9 +103,16 @@ export const StyledNav = styled.nav `
     width:200px;
     background-color:white;
     padding:12px;
-    margin-top:-20px;
+    margin-top:-13px;
     margin-bottom:15px;
-    box-shadow:0px 0px 8px #f7f4f7;
+    box-shadow: 0px 3px 7px #353535,
+                0 0 3px 5px #e9C03C,
+                0 0 8px 7px #f8f8ff,
+                0 0 8px 7px blue,
+                0 0 8px 7px #f8f8ff,
+                0 0 3px 3px #C7C03C;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    
   }
   
 `

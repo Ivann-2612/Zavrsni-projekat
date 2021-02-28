@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const StyledMain5 = styled.div `
-   position: absolute;
+  position: absolute;
   top: 143.5%;
   width: 58.1vw;
   margin-left:-10px;
@@ -11,5 +11,11 @@ export const StyledMain5 = styled.div `
   color: white;
   box-shadow: 0px 3px 7px #353535;
   background-color:#0e1111;
+  border-left:12px solid #C7C03C;
+  h3 {
+    margin-left:13px;
+    margin-top:5px;
+  }
+ 
 
 `
