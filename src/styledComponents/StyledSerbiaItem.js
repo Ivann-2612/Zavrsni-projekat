@@ -1,36 +1,33 @@
 import styled from "styled-components"
 
 export const StyledSerbiaItem = styled.div `
-background-color: #240046;
-border:1px solid gray;
-width:360px;
-height:450px;
-padding:15px;
+width:320px;
+height:430px;
+padding:10px;
 margin:5px;
-color:gray;
-margin-top: 50px;
+margin-top: 60px;
 border-radius:5px;
-font-weight:700;
-letter-spacing:1.2px;
+background-color:#f4f1de;
 
-h1 {
-    font-size:25px;
+img {
+  width:280px;
+  height:150px;
+  margin-left:10px;
+  margin-bottom:10px;
 }
 h3, p {
     margin-bottom:5px;
 }
-img {
-    width:270px;
-    height:140px;
-    margin-left:30px;
-    border-radius:5px;
-}
+box-shadow:2px 1px 2px 2px #141414;
 
-a {
+&:hover {
+    background-color:#10002b;
+    transition:all 0.4s;
     color:white;
-    word-wrap: break-word;
+    border:1px solid gray;
 }
-a:hover {
+& a {
+   
     color:blue;
 }
 `

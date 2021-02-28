@@ -7,5 +7,10 @@ export const StyledNewsSection = styled.section `
     grid-template-columns: repeat(4, 1fr);
     place-items:center;
     }
+    h4 {
+        margin-top:-26px;
+        color:black;
+       
+    }
  
 `

@@ -7,44 +7,70 @@
 }
 
 html {
-  height: 100vh;
-  background-color: #212121;
+
+  background-color: #F2EDE3;
   overflow-y: visible;
+  
 }
 body {
-  height: 100vh;
+  min-height: 205vh;
 }
-nav {
-  font-family: 'Press Start 2P', sans-serif;
+::-webkit-scrollbar {
+  width: 18px;
+  
 }
-nav a {
-  padding: 10px;
+::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  border-radius: 5px;
 }
+::-webkit-scrollbar-track {
+  background-color: #ecebcc;
+  
+}
+
 article {
   color:#4A5894;
   font-size: 12px;
   text-align: center;
   margin: 2px;
   font-family: 'Press Start 2P', sans-serif;
-
 }
+
 h4 {
   position: absolute;
   top: 21%;
   left: 43%;
   color: white;
   font-size: 35px;
- 
+  font-family: 'News Cycle', sans-serif;
+  letter-spacing: 4px;
+}
+
+.div h2 {
+  text-align: left;
+}
+.div ,.a-events {
+  font-size:15px;
+  border:none;
+  margin-left:-10px;
 }
 .div-input {
   border:1px solid white;
-  width: 400px;
+  width: 350px;
   position: absolute;
-  left: 38%;
-  top: 30%;
-  padding: 50px;
-  padding-left:100px;
-  box-shadow: 2px 2px 2px 2px white;
+  left: 76%;
+  top: 2.4%;
+  backdrop-filter:blur(15px);
+  padding: 45px;
+  padding-left:70px; 
+  background-color: #f5ec43;
+  opacity: 0.92;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  caret-color: red;
+}
+.div-input:hover {
+  background-color: darkslategrey;
 }
 div > .input {
   display:flex;
@@ -55,33 +81,7 @@ div > .input {
   outline: none;
   font-size: 15px;
 }
-.btn-login {
-   background-color: rgb(131, 174, 175);
-    display:flex;
-    margin-top: 15px;
-    padding: 8px 20px;
-    margin-left: 5px;
-    border-radius: 5px;
-    outline: none;
-    color: black;
-    letter-spacing: 2px;
-}
-.btn-login:hover {
-  background-color: darkcyan;
-}
-.not-registered {
-  position: absolute;
-  left: 60%;
-  text-decoration: none;
-  color:rgb(86, 104, 182);
-  letter-spacing: 1.5px;
-  font-size: 20px;
-}
-.top {
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  font-size: 30px;
-}
+
 .login {
   padding:10px;
   font-family:sans-serif;
@@ -89,8 +89,8 @@ div > .input {
   font-size:28px;
   padding: 7px 25px;
   -moz-box-shadow: -1px 1px 5px #e0d7e0;
--webkit-box-shadow: -1px 1px 5px #e0d7e0;
-box-shadow: -1px 1px 5px #e0d7e0;
+  -webkit-box-shadow: -1px 1px 5px #e0d7e0;
+  box-shadow: -1px 1px 5px #e0d7e0;
 }
 .register {
   padding:10px;
@@ -98,9 +98,16 @@ box-shadow: -1px 1px 5px #e0d7e0;
   font-size:28px;
   padding: 7px 25px;
   -moz-box-shadow: -1px 1px 5px #e0d7e0;
--webkit-box-shadow: -1px 1px 5px #e0d7e0;
-box-shadow: -1px 1px 5px #e0d7e0;
+  -webkit-box-shadow: -1px 1px 5px #e0d7e0;
+   box-shadow: -1px 1px 5px #e0d7e0;
 }
 marquee {
   letter-spacing: 3.5px;
+  font-weight: 500;
 }
+.marquee {
+  border-bottom: 0.5px solid goldenrod;
+}
+
+
+
