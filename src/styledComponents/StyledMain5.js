@@ -4,9 +4,10 @@ export const StyledMain5 = styled.div `
   position: absolute;
   top: 143.5%;
   width: 58.1vw;
+  padding:3px;
   margin-left:-10px;
   font-family:sans-serif;
-  height: 40vh;
+  height: 43vh;
   font-size: 20px;
   color: white;
   box-shadow: 0px 3px 7px #353535;
@@ -16,6 +17,7 @@ export const StyledMain5 = styled.div `
     margin-left:13px;
     margin-top:5px;
   }
- 
+
+
 
 `

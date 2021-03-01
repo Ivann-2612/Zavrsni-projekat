@@ -22,7 +22,7 @@ const Login = ({ setUser }) => {
                         history.push('/SerbiaNewsList')
                     }
                     else{
-                       alert('Wrong password')
+                       alert('Wrong username or password')
                     }
                 })
             }}>

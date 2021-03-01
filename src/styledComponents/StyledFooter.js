@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledFooter = styled.div `
   position: absolute;
-  top: 186.5%;
+  top: 189.5%;
   left: 1.3%;
   width: 96.5vw;
   height:15vh;
@@ -17,6 +17,8 @@ export const StyledFooter = styled.div `
       display:flex;
       justify-content:center;
       margin-top:43px;
+      margin-left:45px;
+      color:#CFC83D;
   }
 
 `

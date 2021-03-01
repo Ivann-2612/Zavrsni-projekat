@@ -26,9 +26,9 @@ const Weather = () => {
 return (
     <StyledWeather>
     <h2>City: {cityName}</h2>
-    <h3>Temp : {mainTemp} °C</h3>
+    <h3>Temp : {Math.round(mainTemp)} °C</h3>
     <h3>Min-temp: {minTemp} °C</h3>
-    <h3>Max-temp: {maxTemp} °C</h3>
+    <h3>Max-temp: {Math.round(maxTemp)} °C</h3>
     <h3>Wind: {main} m/s</h3>
     </StyledWeather>
 )

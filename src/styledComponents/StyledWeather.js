@@ -21,7 +21,7 @@ export const StyledWeather = styled.section `
     transition: all 0.5s ease;
     border:1px solid blueviolet;
     color:black;
-    width:29.5vw;
+    width:25.5vw;
     background-color:#f8f8ff;
     }
   

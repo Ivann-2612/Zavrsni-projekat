@@ -36,14 +36,14 @@ const App = () => {
 
   const [user,setUser] = useState(null)
   const [search, setSearch] = useState('')
-let currYear = () => {
-let newDate = new Date()
-let date = newDate.getDate();
-let month = newDate.getMonth() + 1;
-let year = newDate.getFullYear();
-return `${date}-${month<10?`0${month}`:`${month}`}-${year}`
-  }
- 
+        let currYear = () => {
+        let newDate = new Date()
+        let date = newDate.getDate();
+        let month = newDate.getMonth() + 1;
+        let year = newDate.getFullYear();
+        return `${date}-${month<10?`0${month}`:`${month}`}-${year}`
+        }
+        
   return (
     <Router> 
                      

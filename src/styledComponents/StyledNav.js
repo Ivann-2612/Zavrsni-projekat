@@ -42,6 +42,11 @@ export const StyledNav = styled.nav `
     top:3%;
     border:1px solid gray;
  }
+ button:hover {
+   background-color:gray;
+   color:black;
+   font-weight:600;
+ }
  h1 {
      display:none;
      font-size:80px;

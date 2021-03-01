@@ -13,15 +13,13 @@ html {
   
 }
 body {
-  min-height: 205vh;
+  min-height: 208vh;
 }
 ::-webkit-scrollbar {
   width: 18px;
-  
 }
 ::-webkit-scrollbar-thumb {
-  background-color: yellow;
-  border-radius: 5px;
+  background-color: gray;
 }
 ::-webkit-scrollbar-track {
   background-color: #ecebcc;

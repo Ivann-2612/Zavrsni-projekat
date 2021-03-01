@@ -1,16 +1,16 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { getAllCats } from '../service'
+import { getAllMemes } from '../service'
 import {StyledMain5} from '../styledComponents/StyledMain5'
 
 
 const Main5 = () => {
-    const [cats,setCats] = useState([])
+    const [memes,setMemes] = useState([])
 
     useEffect(() => {
-        getAllCats().then(res => {
-          console.log(res.data)
-          setCats(res.data.slice(0,4))
+        getAllMemes().then(res => {
+          //console.log(res.data)
+          setMemes(res.data.slice(0,4))
         
         })
     },[])
@@ -18,15 +18,13 @@ const Main5 = () => {
     return (
         <StyledMain5>
             {
-                cats.map(cat => {
+                memes.map(meme => {
                     return (
                     
-                        <div key={cat.id}>
-                            <u><h3>{cat.text}</h3></u>
+                        <div key={meme._id}>
+                           <i><u><h3>{meme.text}</h3></u></i> 
                          <br/>
-                           
                         </div>
-                           
                     )
                     })   
             }

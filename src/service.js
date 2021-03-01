@@ -9,7 +9,8 @@ const SPORT_NEWS = 'http://newsapi.org/v2/top-headlines?country=us&category=spor
 const HEALTH_NEWS = 'http://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=ac157cacb088432180276283ed13c3c9'
 const EVENTS = 'http://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=ac157cacb088432180276283ed13c3c9'
 const SERBIA = 'http://newsapi.org/v2/top-headlines?country=rs&apiKey=ac157cacb088432180276283ed13c3c9'
-const RECIPES = 'https://cat-fact.herokuapp.com/facts'
+const MEMES = 'https://cat-fact.herokuapp.com/facts'
+const ROCKETS = 'https://api.spacexdata.com/v4/rockets'
 
 export const getAllNews = () =>  {
     return axios.get(ALL_NEWS)
@@ -35,8 +36,11 @@ export const getEvents = () =>  {
 export const getSerbiaNews = () =>  {
     return axios.get(SERBIA)
 }
-export const getAllCats = () =>  {
-    return axios.get(RECIPES)
+export const getAllMemes = () =>  {
+    return axios.get(MEMES)
+}
+export const getAllRockets = () =>  {
+    return axios.get(ROCKETS)
 }
 
 export const getAllUsers = () => axios.get('https://my-json-server.typicode.com/ivann-2612/my-news-app/users')

@@ -1,28 +1,39 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { getDevNews } from '../service'
+import { getAllRockets } from '../service'
 import {StyledMain6} from '../styledComponents/StyledMain6'
 
 
 const Main6 = () => {
-    const [events,setEvents] = useState([])
+    const [rockets,setRockets] = useState([])
+    const [margins, setMargins] = useState([0, 1])
 
     useEffect(() => {
-        getDevNews().then(res => {
-          // console.log(res.data.articles)
-           setEvents(res.data.articles.slice(0, 1))
+        getAllRockets().then(res => {
+           //console.log(res.data)
+           setRockets(res.data.slice(0,4))
+           setTimeout(() => {
+            setMargins(prev => {
+                if(prev[0] == rockets.length-1)
+                    return [0, 1];
+                else{
+                    return [prev[0] + 1, prev[1] + 1];
+                } 
+            })
+        },10000)
         })
-    },[])
+    },[margins])
 
     return (
         <StyledMain6>
             {
-                events.map(({title,author}) => {
+                rockets.slice(margins[0], margins[1]).map(({company,id,wikipedia,flickr_images}) => {
                     return (
                     
-                        <div key={title}>
-                            <h2>{author}</h2><br/>
-                            <p><i>{title}</i></p>
+                        <div key={id}>
+                            <h2>{company} flights</h2><br/>
+                            <img src={flickr_images[0]} alt={wikipedia} /><br/>
+                            <a href={wikipedia}><b>About flight: </b>{wikipedia}</a>
                         </div>
                            
                     )

@@ -24,7 +24,7 @@ h2 {
 }
 
 img {
-    max-width:710px;
+    width:780px;
     max-height:300px;
     margin-top:15px;
     margin-left:-40px;

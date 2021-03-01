@@ -22,8 +22,8 @@ const Main4 = () => {
                     
                         <div key={title}>
                             <h3>{author}</h3><br/>
-                            <a href={url}><i>{url}</i></a>
                             <img src={urlToImage} alt='new' />
+                            <a href={url}><i>Read more .....</i></a>
                         </div>
                            
                     )
