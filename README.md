@@ -1,6 +1,6 @@
 # Zavrsni-projekat
 
-Apis used in trhis project:
+Apis used in this project:
 newsapi.org
 cat-fact.herokuapp.com
 api.spacexdata.com
