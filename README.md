@@ -1,6 +1,6 @@
 # Zavrsni-projekat
 
-Api used in this project:\
+Api used in this project:
 # newsapi.org
 # cat-fact.herokuapp.com
 # api.spacexdata.com
