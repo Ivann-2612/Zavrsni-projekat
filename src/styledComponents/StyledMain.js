@@ -21,8 +21,11 @@ export const StyledMain = styled.section `
 h2 {
     text-shadow: 0px 0px 9px blue, 0px 0px 3px #f50abe, 0px 0px 2px red;
     letter-spacing:2.5px;
+    
 }
-
+p {
+    border-bottom: 0.5px solid goldenrod;
+}
 img {
     width:780px;
     max-height:300px;

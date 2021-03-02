@@ -2,9 +2,9 @@ import styled from "styled-components"
 
 export const StyledMain5 = styled.div `
   position: absolute;
-  top: 143.5%;
+  top:194.8%;
   width: 58.1vw;
-  padding:3px;
+  padding:16px;
   margin-left:-10px;
   font-family:sans-serif;
   height: 43vh;
@@ -16,6 +16,7 @@ export const StyledMain5 = styled.div `
   h3 {
     margin-left:13px;
     margin-top:5px;
+    font-size:21px;
   }
 
 

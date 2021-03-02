@@ -11,9 +11,12 @@ const Main = () => {
         let isSubscribed = true
         getEvents().then(res => {
             if (isSubscribed)
+            //console.log(res.data.articles)
             setEvents(res.data.articles)
+           
             setTimeout(() => {
                 setMargins(prev => {
+                    //if(res.data.articles.urlToImage == null) return res.data.articles.urlToImage + 1
                     if(prev[0] == events.length-1)
                         return [0, 1];
                     else{
@@ -32,8 +35,8 @@ const Main = () => {
                 events.slice(margins[0], margins[1]).map(({title,urlToImage,author}) => {
                     return (
                         <div className='div' key={title}>
-                            <h2 style={{color:'#F5EC43',textAlign:'left'}}>{author}</h2>
-                            <p className='marquee'><i>{title}</i></p>
+                            <h2>{author}</h2>
+                            <p><i>{title}</i></p>
                             <img src={urlToImage} alt={title} />
                         </div>
                     )

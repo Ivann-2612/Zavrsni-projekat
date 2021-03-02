@@ -21,10 +21,22 @@ position: absolute;
   }
   h3 {
     margin-top:5px;
-    margin-left:-75px;
+    margin-left:5px;
+    width:210px;
+    border-bottom: 0.5px solid goldenrod;
   }
- 
-    a {
+  h5 {
+    position:absolute;
+    left:0.5%;
+    top:1%;
+    color:#f8f8ff;
+    font-size:23px;
+    text-align:center;
+    border-right:2px dotted white;
+    padding-right:5px;
+  }
+
+  a {
     font-size:16px;
     text-decoration:none;
     border:none;

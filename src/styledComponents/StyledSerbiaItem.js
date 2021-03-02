@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledSerbiaItem = styled.div `
 width:320px;
-height:430px;
+height:460px;
 padding:10px;
 margin:5px;
 margin-top: 60px;

@@ -11,7 +11,7 @@ const Weather = () => {
     
 
     useEffect(()=> {
-        fetch('http://api.openweathermap.org/data/2.5/weather?q=Belgrade&appid=6f9f3c22febc914f1639e706d22918db&units=metric')
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=Belgrade&appid=6f9f3c22febc914f1639e706d22918db&units=metric')
         .then((res) => res.json())
         .then((data) => {
            // console.log(data)
@@ -30,6 +30,7 @@ return (
     <h3>Min-temp: {minTemp} °C</h3>
     <h3>Max-temp: {Math.round(maxTemp)} °C</h3>
     <h3>Wind: {main} m/s</h3>
+     <p> W <br />E <br />A <br />T <br />H <br />E <br />R</p>
     </StyledWeather>
 )
 }

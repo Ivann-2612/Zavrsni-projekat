@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledNewsSourceItem = styled.div `
 width:320px;
-min-height:240px;
+min-height:290px;
 padding:15px;
 margin:5px;
 color:gray;

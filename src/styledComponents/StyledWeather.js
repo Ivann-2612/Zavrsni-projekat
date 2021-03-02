@@ -38,5 +38,16 @@ h3 {
     text-align:left;
     padding-left:30px;
 }
+p {
+    position:absolute;
+    left:94%;
+    top:3%;
+    color:#C4BD3A;
+    font-size:13.3px;
+    text-align:center;
+    border-left:2px dotted white;
+    padding-left:5px;
+}
+
 
 `

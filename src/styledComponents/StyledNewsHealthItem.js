@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const StyledNewsHealthItem = styled.div `
-width:450px;
-height:230px;
+width:400px;
+height:270px;
 padding:15px;
 margin:5px;
 color:gray;

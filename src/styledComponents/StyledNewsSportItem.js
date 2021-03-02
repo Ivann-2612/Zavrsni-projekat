@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const StyledNewsSportItem = styled.div `
-width:450px;
-height:230px;
+width:350px;
+height:300px;
 padding:15px;
 margin:5px;
 color:gray;

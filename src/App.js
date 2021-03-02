@@ -28,6 +28,7 @@ import Main4 from './components/Main4'
 import Main5 from './components/Main5'
 import Main6 from './components/Main6'
 import Weather from './components/Weather'
+import RecipeItem from './components/RecipeItem'
 import Footer from './components/Footer'
 
 
@@ -86,6 +87,7 @@ const App = () => {
                     <Main4 />  
                     <Main5 />
                     <Main6 />  
+                    <RecipeItem />
                     <Footer />
                     </>
                 }

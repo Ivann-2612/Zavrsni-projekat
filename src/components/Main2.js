@@ -17,19 +17,18 @@ const Main2 = () => {
     },[])
 
     return (
-        <div>
-                                    {
+        <div>                        {
                 events.map(({title,author}) => {
                     return (
                     
                         <div className='div' key={title}>
                             <h2>{author}</h2><br/>
                             <h3><i>{title}</i></h3>
-                        </div>
-                           
+                        </div>                           
                     )
                     })   
             }
+            <h5> S <br />P <br />O <br />R <br />T <br /> <br />N <br />E <br />W <br />S</h5>
         </div>
     )
 }

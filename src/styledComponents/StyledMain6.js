@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledMain6 = styled.div `
   position: absolute;
-  top: 143.5%;
+  top: 194.8%;
   left: 61%;
   padding:3px;
   height: 43vh;

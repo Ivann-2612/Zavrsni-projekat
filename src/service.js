@@ -5,12 +5,13 @@ const ALL_NEWS = 'https://newsapi.org/v2/everything?q=bitcoin&apiKey=ac157cacb08
 const TOP_NEWS_BBC = 'https://newsapi.org/v2/sources?apiKey=ac157cacb088432180276283ed13c3c9'
 const TECH_NEWS = 'https://newsapi.org/v2/everything?q=apple&from=2021-02-19&to=2021-02-19&sortBy=popularity&apiKey=ac157cacb088432180276283ed13c3c9'
 const DEV_NEWS = 'https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=ac157cacb088432180276283ed13c3c9'
-const SPORT_NEWS = 'http://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=ac157cacb088432180276283ed13c3c9'
-const HEALTH_NEWS = 'http://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=ac157cacb088432180276283ed13c3c9'
-const EVENTS = 'http://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=ac157cacb088432180276283ed13c3c9'
-const SERBIA = 'http://newsapi.org/v2/top-headlines?country=rs&apiKey=ac157cacb088432180276283ed13c3c9'
+const SPORT_NEWS = 'https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=ac157cacb088432180276283ed13c3c9'
+const HEALTH_NEWS = 'https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=ac157cacb088432180276283ed13c3c9'
+const EVENTS = 'https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=ac157cacb088432180276283ed13c3c9'
+const SERBIA = 'https://newsapi.org/v2/top-headlines?country=rs&apiKey=ac157cacb088432180276283ed13c3c9'
 const MEMES = 'https://cat-fact.herokuapp.com/facts'
 const ROCKETS = 'https://api.spacexdata.com/v4/rockets'
+const RECIPES = 'https://forkify-api.herokuapp.com/api/search?q=steak'
 
 export const getAllNews = () =>  {
     return axios.get(ALL_NEWS)
@@ -41,6 +42,9 @@ export const getAllMemes = () =>  {
 }
 export const getAllRockets = () =>  {
     return axios.get(ROCKETS)
+}
+export const getAllRecipes = () =>  {
+    return axios.get(RECIPES)
 }
 
 export const getAllUsers = () => axios.get('https://my-json-server.typicode.com/ivann-2612/my-news-app/users')

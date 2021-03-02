@@ -24,11 +24,11 @@ const Main4 = () => {
                             <h3>{author}</h3><br/>
                             <img src={urlToImage} alt='new' />
                             <a href={url}><i>Read more .....</i></a>
-                        </div>
-                           
+                        </div>  
                     )
                     })   
             }
+             <h5> D <br />E <br />V <br /> <br />N <br />E <br />W <br />S</h5>
         </StyledMain4>
     )
 }
