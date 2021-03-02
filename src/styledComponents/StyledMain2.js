@@ -25,7 +25,7 @@ h2 {
     letter-spacing:2px;
 }
 h3 {
-    font-size:16.3px;
+    font-size:18px;
 }
 h5 {
     position:absolute;

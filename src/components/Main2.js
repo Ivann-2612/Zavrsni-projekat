@@ -12,7 +12,7 @@ const Main2 = () => {
     useEffect(() => {
         getSportNews().then(res => {
            //console.log(res.data.articles)
-           setEvents(res.data.articles.slice(0, 6))
+           setEvents(res.data.articles.slice(5, 10))
         })
     },[])
 

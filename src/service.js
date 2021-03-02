@@ -12,6 +12,7 @@ const SERBIA = 'https://newsapi.org/v2/top-headlines?country=rs&apiKey=ac157cacb
 const MEMES = 'https://cat-fact.herokuapp.com/facts'
 const ROCKETS = 'https://api.spacexdata.com/v4/rockets'
 const RECIPES = 'https://forkify-api.herokuapp.com/api/search?q=steak'
+const RANDOM_USER = 'https://randomuser.me/api/?results=2'
 
 export const getAllNews = () =>  {
     return axios.get(ALL_NEWS)
@@ -45,6 +46,9 @@ export const getAllRockets = () =>  {
 }
 export const getAllRecipes = () =>  {
     return axios.get(RECIPES)
+}
+export const getAllRandomUsers = () =>  {
+    return axios.get(RANDOM_USER)
 }
 
 export const getAllUsers = () => axios.get('https://my-json-server.typicode.com/ivann-2612/my-news-app/users')

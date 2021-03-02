@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Zavrsni-projekat/static/css/main.03bedd7e.chunk.css",
-    "main.js": "/Zavrsni-projekat/static/js/main.4ba74789.chunk.js",
-    "main.js.map": "/Zavrsni-projekat/static/js/main.4ba74789.chunk.js.map",
+    "main.css": "/Zavrsni-projekat/static/css/main.43e94525.chunk.css",
+    "main.js": "/Zavrsni-projekat/static/js/main.b4b734df.chunk.js",
+    "main.js.map": "/Zavrsni-projekat/static/js/main.b4b734df.chunk.js.map",
     "runtime-main.js": "/Zavrsni-projekat/static/js/runtime-main.84efd187.js",
     "runtime-main.js.map": "/Zavrsni-projekat/static/js/runtime-main.84efd187.js.map",
-    "static/js/2.ac3d336b.chunk.js": "/Zavrsni-projekat/static/js/2.ac3d336b.chunk.js",
-    "static/js/2.ac3d336b.chunk.js.map": "/Zavrsni-projekat/static/js/2.ac3d336b.chunk.js.map",
+    "static/js/2.a9429a5d.chunk.js": "/Zavrsni-projekat/static/js/2.a9429a5d.chunk.js",
+    "static/js/2.a9429a5d.chunk.js.map": "/Zavrsni-projekat/static/js/2.a9429a5d.chunk.js.map",
     "index.html": "/Zavrsni-projekat/index.html",
-    "static/css/main.03bedd7e.chunk.css.map": "/Zavrsni-projekat/static/css/main.03bedd7e.chunk.css.map",
-    "static/js/2.ac3d336b.chunk.js.LICENSE.txt": "/Zavrsni-projekat/static/js/2.ac3d336b.chunk.js.LICENSE.txt"
+    "static/css/main.43e94525.chunk.css.map": "/Zavrsni-projekat/static/css/main.43e94525.chunk.css.map",
+    "static/js/2.a9429a5d.chunk.js.LICENSE.txt": "/Zavrsni-projekat/static/js/2.a9429a5d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.84efd187.js",
-    "static/js/2.ac3d336b.chunk.js",
-    "static/css/main.03bedd7e.chunk.css",
-    "static/js/main.4ba74789.chunk.js"
+    "static/js/2.a9429a5d.chunk.js",
+    "static/css/main.43e94525.chunk.css",
+    "static/js/main.b4b734df.chunk.js"
   ]
 }

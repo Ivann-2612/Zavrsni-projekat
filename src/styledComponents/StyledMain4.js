@@ -15,8 +15,8 @@ position: absolute;
   background-color:#0e1111;
   border-left:12px solid #C7C03C;
   img {
-    max-width:350px;
-    height:200px;
+    width:360px;
+    height:210px;
     margin-left:20px;
   }
   h3 {

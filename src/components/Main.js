@@ -16,7 +16,6 @@ const Main = () => {
            
             setTimeout(() => {
                 setMargins(prev => {
-                    //if(res.data.articles.urlToImage == null) return res.data.articles.urlToImage + 1
                     if(prev[0] == events.length-1)
                         return [0, 1];
                     else{

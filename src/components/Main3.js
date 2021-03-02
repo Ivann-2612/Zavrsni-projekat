@@ -1,29 +1,32 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { getSportNews } from '../service'
+import { getAllRandomUsers } from '../service'
 
 
 const Main3 = () => {
-    const [events,setEvents] = useState([])
+    const [users,setUsers] = useState([])
 
     useEffect(() => {
-        getSportNews().then(res => {
-          // console.log(res.data.articles)
-           setEvents(res.data.articles.slice(10, 11))
+        getAllRandomUsers().then(res => {
+           console.log(res.data.results[0])
+           setUsers(res.data.results)
+        
         })
     },[])
 
     return (
         <div>
+             <h6>Subscribers:</h6>
             {
-                events.map(({title,author}) => {
+                users.map(({picture,cell,gender,name,location}) => {
                     return (
                     
-                        <div className='div' key={title}>
-                            <h2>{author}</h2><br/>
-                            <p><i>{title}</i></p>
-                        </div>
+                        <div key={cell}>
                            
+                            <p className='p'>{name.title}. {name.first} {name.last} </p>
+                            <p>&nbsp; {location.country}</p><br/>
+                            <img src={picture.medium} alt={gender} />
+                        </div>
                     )
                     })   
             }

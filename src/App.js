@@ -61,7 +61,7 @@ const App = () => {
                      <Link className='health' to="/NewsHealthList">Health News</Link>
                      <Link className='events' to="/EventsList">Top Events</Link>
                      <Link className='daily' to="/newsList">Daily News</Link>
-                     <Search setSearch={setSearch} search={search} /> 
+                    {/* <Search setSearch={setSearch} search={search} /> */}
             
                      <span>Username: {user.username}</span>
                      <button onClick={() => setUser(null)}>LOGOUT</button>
@@ -73,6 +73,7 @@ const App = () => {
                     <> 
                     <img className="logo" src='https://cdn.worldvectorlogo.com/logos/daily-news.svg' />
                     <br/><marquee scrollamount="8"><h3>THE BEST PLACE FOR QUALITY NEWS</h3></marquee>
+                   
                     <h5 className='year'> {currYear()} </h5>
                     <StyledMain>
                         <Main />

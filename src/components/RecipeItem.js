@@ -9,7 +9,7 @@ const RecipeItem = () => {
 
     useEffect(() => {
         getAllRecipes().then(res => {
-           console.log(res.data.recipes)
+           //console.log(res.data.recipes)
            setRecipes(res.data.recipes.slice(7,10))
         
         })

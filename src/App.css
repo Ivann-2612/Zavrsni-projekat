@@ -26,23 +26,7 @@ body {
   
 }
 
-article {
-  color:#4A5894;
-  font-size: 12px;
-  text-align: center;
-  margin: 2px;
-  font-family: 'Press Start 2P', sans-serif;
-}
 
-h4 {
-  position: absolute;
-  top: 21%;
-  left: 43%;
-  color: white;
-  font-size: 35px;
-  font-family: 'News Cycle', sans-serif;
-  letter-spacing: 4px;
-}
 
 .div h2 {
   text-align: left;
