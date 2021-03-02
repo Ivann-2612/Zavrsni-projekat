@@ -1,10 +1,10 @@
 # Zavrsni-projekat
 
 Api used in this project:\
-newsapi.org\
-cat-fact.herokuapp.com\
-api.spacexdata.com\
-forkify-api.herokuapp.com
+# newsapi.org\
+# cat-fact.herokuapp.com\
+# api.spacexdata.com\
+# forkify-api.herokuapp.com
 
 Getting Started with Create React App\
 This project was bootstrapped with Create React App.
