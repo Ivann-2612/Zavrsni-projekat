@@ -2,6 +2,7 @@
 
 Api used in this project:
 ## newsapi.org
+## https://randomuser.me/api
 ## cat-fact.herokuapp.com
 ## api.spacexdata.com
 ## forkify-api.herokuapp.com
