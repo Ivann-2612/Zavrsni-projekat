@@ -29,7 +29,7 @@ return (
     <h3>Temp : {Math.round(mainTemp)} °C</h3>
     <h3>Min-temp: {minTemp} °C</h3>
     <h3>Max-temp: {Math.round(maxTemp)} °C</h3>
-    <h3>Wind: {main} m/s</h3>
+    <h3>Wind-speed: {Math.round(main)} m/s</h3>
      <p> W <br />E <br />A <br />T <br />H <br />E <br />R</p>
     </StyledWeather>
 )

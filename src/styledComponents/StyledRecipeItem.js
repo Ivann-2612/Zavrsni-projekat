@@ -14,6 +14,11 @@ export const StyledRecipeItem = styled.div `
   box-shadow: 0px 3px 7px #353535;
   background-color:#0e1111;
   border-left:12px solid #C7C03C;
+  &:hover {
+    background-color:#242424;
+    color:#f8f8ff;
+    transition:0.7s;
+    }
   
   img {
     max-width:350px;

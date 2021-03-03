@@ -16,6 +16,12 @@ export const StyledMain2 = styled.section `
     border:0.5px solid #353535;
     box-shadow: 0px 3px 7px #353535;
     border-left:12px solid #C7C03C;
+    &:hover {
+    background-color:#242424;
+    color:#f8f8ff;
+    transition:0.7s;
+    }
+  
  .div {
      width:100%;
  }

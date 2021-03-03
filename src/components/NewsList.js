@@ -8,13 +8,13 @@ const NewsList = () => {
     const [articles,setArticles] = useState([])
 
     useEffect(() => {
-        let isSubscribed = true
+        let mounted = true
         getAllNews().then(res => {
             //console.log(res.data.articles[0])
-            if (isSubscribed)
+            if (mounted)
             setArticles(res.data.articles)
         })
-        return () => isSubscribed = false
+        return () => mounted = false
     },[])
 
     return (

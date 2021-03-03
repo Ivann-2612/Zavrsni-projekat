@@ -9,9 +9,11 @@ const Main6 = () => {
     const [margins, setMargins] = useState([0, 1])
 
     useEffect(() => {
+        let mounted = true
         getAllRockets().then(res => {
            //console.log(res.data)
            setRockets(res.data.slice(0,4))
+           if (mounted)
            setTimeout(() => {
             setMargins(prev => {
                 if(prev[0] == rockets.length-1)
@@ -22,6 +24,7 @@ const Main6 = () => {
             })
         },10000)
         })
+        return () => mounted = false
     },[margins])
 
     return (

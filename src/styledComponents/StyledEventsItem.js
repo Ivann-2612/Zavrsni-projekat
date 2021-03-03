@@ -5,7 +5,7 @@ background-color:transparent;
 border-left:1px solid azure;
 border-top:1px solid azure;
 width:300px;
-height:300px;
+height:360px;
 padding:15px;
 margin:5px;
 color:gray;

@@ -13,6 +13,11 @@ export const StyledMain5 = styled.div `
   box-shadow: 0px 3px 7px #353535;
   background-color:#0e1111;
   border-left:12px solid #C7C03C;
+  &:hover {
+    background-color:#242424;
+    color:#f8f8ff;
+    transition:0.7s;
+    }
   h3 {
     margin-left:13px;
     margin-top:5px;

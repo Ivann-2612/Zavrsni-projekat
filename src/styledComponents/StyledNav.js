@@ -14,7 +14,7 @@ export const StyledNav = styled.nav `
      text-decoration:none;
      margin-left:20px;
      color:gray;
-     border:1px solid gray;
+
      border-radius:5px;
      padding: 10px;
  }
@@ -115,9 +115,14 @@ export const StyledNav = styled.nav `
                 0 0 8px 7px #f8f8ff,
                 0 0 8px 7px blue,
                 0 0 8px 7px #f8f8ff,
-                0 0 3px 3px #C7C03C;
+                0 0 3px 3px #C7C03C,
+                0 0 8px 7px #f8f8ff,
+                0 0 3px 3px #C7C03C,
+                0px 3px 7px #353535;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
     
   }
-  
+  .logo:hover {
+    background-color:lightgrey;
+  }
 `

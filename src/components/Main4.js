@@ -10,7 +10,7 @@ const Main4 = () => {
     useEffect(() => {
         getDevNews().then(res => {
           // console.log(res.data.articles)
-           setEvents(res.data.articles.slice(0, 2))
+           setEvents(res.data.articles.slice(6, 8))
         })
     },[])
 

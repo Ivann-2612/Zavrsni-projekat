@@ -26,14 +26,14 @@ export const StyledWeather = styled.section `
     }
   
 h2 {
-    text-shadow: 0px 0px 2px blue, 0px 0px 2px #f50abe;
+    text-shadow: 0px 0px 1.5px green, 0px 0px 1.5px #f50abe;
     letter-spacing:3.5px;
     text-align:left;
     padding-left:30px;
     margin-top:-5px;
 }
 h3 {
-    text-shadow: 0px 0px 2px blue, 0px 0px 2px #f50abe;
+    text-shadow: 0px 0px 1.5px blue, 0px 0px 1.5px #f50abe;
     letter-spacing:3.5px;
     text-align:left;
     padding-left:30px;

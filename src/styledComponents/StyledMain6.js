@@ -12,6 +12,11 @@ export const StyledMain6 = styled.div `
   color: white;
   box-shadow: 0px 3px 7px #353535;
   background-color:#0e1111;
+  &:hover {
+    background-color:#242424;
+    color:#f8f8ff;
+    transition:0.7s;
+    }
   h2 {
     text-align:center;
   }

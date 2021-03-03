@@ -14,6 +14,11 @@ export const StyledMain3 = styled.section `
     border:0.5px solid #353535;
     box-shadow: 0px 3px 7px #353535;
     border-left:12px solid #C7C03C;
+    &:hover {
+    background-color:#242424;
+    color:#f8f8ff;
+    transition:0.7s;
+    }
  div {
   
     display:flex;
@@ -35,11 +40,11 @@ export const StyledMain3 = styled.section `
     position:absolute;
     top:10px;
     font-size:18px;
-    margin-left:-200px;
+    margin-left:-210px;
 }
 p {
     position:absolute;
     top:30px;
-    margin-left:-180px;
+    margin-left:-160px;
 }
 `

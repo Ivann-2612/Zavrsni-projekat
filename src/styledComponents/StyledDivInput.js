@@ -5,7 +5,7 @@ box-shadow: 0px 3px 7px #353535;
 background-color: rgba(244,228,4, 0.5); 
 backdrop-filter: blur(10px);
 box-shadow: inset 0 0 2000px rgba(255, 255, 255, .6);
-border:1px solid white;
+border:2px solid gray;
 width: 350px;
 position: absolute;
 left: 76%;
@@ -15,6 +15,7 @@ padding-left:70px;
 opacity: 0.92;
 border-top-left-radius: 10px;
 border-bottom-right-radius: 10px;
+
 p:hover {
   color:white;
 }

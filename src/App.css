@@ -23,10 +23,20 @@ body {
 }
 ::-webkit-scrollbar-track {
   background-color: #ecebcc;
+  border:1px solid black;
   
 }
 
 
+h4 {
+  position: absolute;
+  top: 21%;
+  left: 43%;
+  color: white;
+  font-size: 35px;
+  font-family: 'News Cycle', sans-serif;
+  letter-spacing: 4px;
+}
 
 .div h2 {
   text-align: left;

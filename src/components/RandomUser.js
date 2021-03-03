@@ -1,37 +1,34 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { getAllRandomUsers } from '../service'
+import {StayledRandomUser} from '../styledComponents/StayledRandomUser'
 
 
-const Main3 = () => {
+const RandomUser = () => {
     const [users,setUsers] = useState([])
 
     useEffect(() => {
         getAllRandomUsers().then(res => {
-           //console.log(res.data.results[0])
+           console.log(res.data.results[0])
            setUsers(res.data.results)
         
         })
     },[])
 
     return (
-        <div>
-             <h6>Subscribers:</h6>
+        <StayledRandomUser>
             {
-                users.map(({picture,cell,gender,name,location}) => {
+                users.map(({picture,cell,gender}) => {
                     return (
                     
                         <div key={cell}>
-                           
-                            <p className='p'>{name.first} {name.last} </p>
-                            <p>&nbsp; {location.country}</p><br/>
-                            <img src={picture.medium} alt={gender} />
+                            <img src={picture.thumbnail} alt={gender} /><br/>
                         </div>
                     )
                     })   
             }
-        </div>
+        </StayledRandomUser>
     )
 }
 
-export default Main3
+export default RandomUser
