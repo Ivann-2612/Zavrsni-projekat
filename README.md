@@ -3,7 +3,7 @@
 ## Used technologies
 
 ### VSCode
-### NodeJS
+### NodeJS >= 12 version
 ### Git
 ### JavaScript
 ### ReactJS, styled-components, react-router-dom, axios
