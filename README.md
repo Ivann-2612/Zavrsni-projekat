@@ -1,9 +1,9 @@
 
 ## Used technologies
 
-### VSCode 1.53
-### NodeJS >= 12 version
-### Git 2.13.2
+### VSCode 1.53 v
+### NodeJS >= 12 v
+### Git 2.13.2 v
 ### JavaScript
 ### ReactJS, styled-components, react-router-dom, axios
 
