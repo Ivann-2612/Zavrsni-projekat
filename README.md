@@ -16,7 +16,8 @@
 ### https://randomuser.me/api
 
 About project:
-Login,register,reading news,current weather,recipes/
+Login,register,reading news,current weather,recipes
+
 
 Getting Started with npx create-react-app
 This project was bootstrapped with Create React App.
