@@ -26,7 +26,7 @@ This project was bootstrapped with Create React App.
 ## npm install && npm install axios
 
 Available Scripts
-In the project directory, you can run:
+In the project directory, you can run:/
 2.step
 ## npm start
 Runs the app in the development mode.
