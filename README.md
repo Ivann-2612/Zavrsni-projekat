@@ -25,7 +25,6 @@ This project was bootstrapped with Create React App.
 1.step
 ## npm install && npm install axios
 
-Available Scripts
 In the project directory, you can run:
 
 2.step
