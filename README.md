@@ -9,7 +9,7 @@
 ### ReactJS, styled-components, react-router-dom, axios
 
 
-Api used in this project:
+## Api used in this project:
 ### https://newsapi.org
 ### https://cat-fact.herokuapp.com
 ### https://api.spacexdata.com/v4
