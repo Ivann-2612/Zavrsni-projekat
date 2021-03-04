@@ -2,11 +2,11 @@
 
 ## Used technologies
 
-## JavaScript
-## ReactJS, styled-components, react-router-dom, axios
-## NodeJS
-## VSCode
-## Git
+### JavaScript
+### ReactJS, styled-components, react-router-dom, axios
+### NodeJS
+### VSCode
+### Git
 
 Api used in this project:
 ## https://newsapi.org
