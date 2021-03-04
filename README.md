@@ -1,4 +1,3 @@
-# Zavrsni-projekat
 
 ## Used technologies
 
