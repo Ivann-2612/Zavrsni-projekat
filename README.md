@@ -10,11 +10,11 @@
 
 
 Api used in this project:
-## https://newsapi.org
-## https://cat-fact.herokuapp.com
-## https://api.spacexdata.com/v4
-## https://forkify-api.herokuapp.com/api
-## https://randomuser.me/api
+### https://newsapi.org
+### https://cat-fact.herokuapp.com
+### https://api.spacexdata.com/v4
+### https://forkify-api.herokuapp.com/api
+### https://randomuser.me/api
 
 About project:
 Login,register,reading news,current weather,recipes/
