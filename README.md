@@ -22,12 +22,12 @@ Login,register,reading news,current weather,recipes/
 Getting Started with npx create-react-app
 This project was bootstrapped with Create React App.
 
-1.step
-## npm install && npm install axios
+## 1.step
+### npm install && npm install axios
 
 In the project directory, you can run:
 
-2.step
-## npm start
+## 2.step
+### npm start
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
