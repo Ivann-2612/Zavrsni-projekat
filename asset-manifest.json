@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Zavrsni-projekat/static/css/main.7f987511.chunk.css",
-    "main.js": "/Zavrsni-projekat/static/js/main.033abe7f.chunk.js",
-    "main.js.map": "/Zavrsni-projekat/static/js/main.033abe7f.chunk.js.map",
+    "main.css": "/Zavrsni-projekat/static/css/main.38650ea7.chunk.css",
+    "main.js": "/Zavrsni-projekat/static/js/main.4987c5ed.chunk.js",
+    "main.js.map": "/Zavrsni-projekat/static/js/main.4987c5ed.chunk.js.map",
     "runtime-main.js": "/Zavrsni-projekat/static/js/runtime-main.84efd187.js",
     "runtime-main.js.map": "/Zavrsni-projekat/static/js/runtime-main.84efd187.js.map",
     "static/js/2.a9429a5d.chunk.js": "/Zavrsni-projekat/static/js/2.a9429a5d.chunk.js",
     "static/js/2.a9429a5d.chunk.js.map": "/Zavrsni-projekat/static/js/2.a9429a5d.chunk.js.map",
     "index.html": "/Zavrsni-projekat/index.html",
-    "static/css/main.7f987511.chunk.css.map": "/Zavrsni-projekat/static/css/main.7f987511.chunk.css.map",
+    "static/css/main.38650ea7.chunk.css.map": "/Zavrsni-projekat/static/css/main.38650ea7.chunk.css.map",
     "static/js/2.a9429a5d.chunk.js.LICENSE.txt": "/Zavrsni-projekat/static/js/2.a9429a5d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.84efd187.js",
     "static/js/2.a9429a5d.chunk.js",
-    "static/css/main.7f987511.chunk.css",
-    "static/js/main.033abe7f.chunk.js"
+    "static/css/main.38650ea7.chunk.css",
+    "static/js/main.4987c5ed.chunk.js"
   ]
 }
